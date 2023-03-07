@@ -5,3 +5,22 @@ div.attention {
     font-weight: 900;
     color: white;
 }
+
+.Pink {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+#four {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.Biggie {
+    font-size: 24px;
+}
