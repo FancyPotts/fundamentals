@@ -9,7 +9,6 @@ body{
     border: 1px solid blue;
     align-items: center;
     display: flex;
-    flex-direction: column;
 }
 
 .header {
@@ -17,7 +16,7 @@ body{
     border: 1px solid red;
     flex: 1;
     align-items: center;
-    justify-content:space-evenly
+    justify-content:space-around;
 }
 
 .box {
@@ -29,6 +28,7 @@ body{
 .content {
     height: 300px;
     border: 2px solid purple;
+
 }
 
 .action {
