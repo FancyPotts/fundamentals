@@ -1,0 +1,21 @@
+
+.hero {
+    border: 1px solid blue;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    border: 1px solid red;
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
