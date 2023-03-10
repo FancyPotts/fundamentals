@@ -1,18 +1,48 @@
 
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
 .hero {
     border: 1px solid blue;
     align-items: center;
     display: flex;
-    padding: 20px;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     border: 1px solid red;
     flex: 1;
+    align-items: center;
+    justify-content:space-evenly
+}
+
+.box {
+    flex: 1;
     padding: 20px;
+    height: 250px;
+}
+
+.content {
+    height: 300px;
+    border: 2px solid purple;
+}
+
+.action {
+    height: 200px;
+    border: 1px solid peachpuff;
+}
+
+.footer {
+    display: flex;
+    border: 1px solid green;
+    flex: 1;
     align-items: center;
     justify-content: space-around;
+    height: 80px;
 }
 
 ul {
