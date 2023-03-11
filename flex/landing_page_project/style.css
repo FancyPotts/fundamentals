@@ -5,10 +5,22 @@ body{
 
 }
 
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+}
+
 .hero {
     border: 1px solid blue;
-    align-items: center;
     display: flex;
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header {
@@ -16,19 +28,57 @@ body{
     border: 1px solid red;
     flex: 1;
     align-items: center;
-    justify-content:space-around;
+    justify-content:center;
+}
+
+.info {
+    flex: 0 1 auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
 
 .box {
-    flex: 1;
+    flex: 0 1 auto;
     padding: 20px;
-    height: 250px;
+    width: 400px;
+    height: 150px;
+    border: 1px solid lime;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .content {
     height: 300px;
     border: 2px solid purple;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap;r */
+    flex-direction: column;
+}
 
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    border: 1px solid red;
+    align-items: stretch;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin-top: 40px;
+    border: 1px solid lime;
+}
+
+.box h1 {
+    margin: 0;
+}
+
+.content h1 {
+    border: 1px solid black;
 }
 
 .action {
