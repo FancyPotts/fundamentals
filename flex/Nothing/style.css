@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    border: 2px solid pink;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header {
+    border: 2px solid blue;
+    margin: 2px;
+    flex: 1;
+    max-height: 2em;
+    display: flex;
+}
+
+.top {
+    display: flex;
+    border: 1px solid black;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin: 0
+}
+
+.content {
+    display: flex;
+    border: 1px solid lime;
+    margin: 2px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.info {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    max-height: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    flex: 1;
+    display: flex;
+    border: 1px solid red;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    margin: 10px;
+    border: 1px solid greenyellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.act {
+    display: flex;
+    flex: 1;
+    border: 1px solid purple;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    border: 2px solid red;
+    max-height: 3em;
+    justify-content: center;
+    align-items: center;
+}
